@@ -1,31 +1,44 @@
-# Compiled files
+# === Compiled / Binaries ===
 *.exe
-*.o
-*.obj
 *.out
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
 
-# IDE files
+# === JetBrains CLion ===
 .idea/
-.vscode/
-*.vcxproj*
-*.sln
+cmake-build-*/         # (CLion: cmake-build-debug, cmake-build-release, vs.)
 
-# Build directories
-build/
-cmake-build*/
-Debug/
-Release/
+# === Code::Blocks ===
+*.cbp
+*.depend
+*.layout
 bin/
 obj/
+Debug/
+Release/
 
-# Code::Blocks files
-*.cbp
-*.layout
-*.depend
+# === VS Code / Visual Studio ===
+.vscode/
+.vs/
+*.sln
+*.vcxproj*
+*.user
 
-# System files
+# === CMake build artifcats (kaynak değil!) ===
+build/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# === OS junk ===
 .DS_Store
 Thumbs.db
 
-# CMake files
-CMakeLists.txt
+# (BİLEREK TAKİP EDİLEN)
+#! CMakeLists.txt  <-- Bunu IGNORE ETME!
