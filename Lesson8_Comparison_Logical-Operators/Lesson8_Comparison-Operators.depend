@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1758108232 source:/home/kemal/Desktop/c_programming/Lesson8_Comparison-Operators/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1758109979 source:/home/kemal/Desktop/c_programming/Lesson8_Comparison_Logical-Operators/main.c
+	<stdio.h>
+	<stdlib.h>
+
