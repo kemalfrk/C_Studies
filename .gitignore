@@ -1,0 +1,31 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE files
+.idea/
+.vscode/
+*.vcxproj*
+*.sln
+
+# Build directories
+build/
+cmake-build*/
+Debug/
+Release/
+bin/
+obj/
+
+# Code::Blocks files
+*.cbp
+*.layout
+*.depend
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CMake files
+CMakeLists.txt
